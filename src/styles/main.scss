@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import 'variables';
+@import 'mixins';
+
+html, body {
+  font-family: $font-family;
+  font-size: $font-size-base;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  font-size: $font-size-base;
+  padding: 0.5rem 1rem;
+}
